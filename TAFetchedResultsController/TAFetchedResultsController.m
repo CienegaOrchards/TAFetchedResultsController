@@ -283,7 +283,7 @@
                 
                 if ([propertyNameForSectionGrouping isEqualToString:nameFromFetchResults])
                 {
-                    si.sectionIndexInFetchedResults = sectionIdx;
+                    si.sectionIndexInFetchedResults = (NSUInteger)sectionIdx;
                     found = YES;
                     break;
                 }
